@@ -1,0 +1,5 @@
+.custom-btn {
+    background-color: black;
+    border-color: black;
+    color: white; /* Pour changer la couleur du texte en blanc, car le fond est noir */
+}
