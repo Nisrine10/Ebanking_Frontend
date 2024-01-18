@@ -37,7 +37,7 @@ L'objectif principal de ce projet frontend est de fournir une interface utilisat
 - `ReactiveFormsModule` : Module qui expose des fonctionnalités pour travailler avec les formulaires réactifs. Les formulaires réactifs offrent un moyen puissant de gérer et de valider les formulaires dans une application Angular.
 
 ## JWT_Token
-![Capture JWT Token](CAPTURES/jwt_token.png)
+![Capture JWT Token](CAPTURES/jwt_token.PNG)
 
 ## Admin Pages
 
