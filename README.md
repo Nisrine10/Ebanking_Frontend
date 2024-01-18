@@ -36,85 +36,96 @@ L'objectif principal de ce projet frontend est de fournir une interface utilisat
 - `HttpClientModule` : Module qui fournit des fonctionnalités pour effectuer des requêtes HTTP. Dans ce projet, il est utilisé pour interagir avec le backend Spring Boot, récupérant ainsi les données nécessaires à l'affichage des informations.
 - `ReactiveFormsModule` : Module qui expose des fonctionnalités pour travailler avec les formulaires réactifs. Les formulaires réactifs offrent un moyen puissant de gérer et de valider les formulaires dans une application Angular.
 
-## Captures d'écran
+## JWT_Token
+![Capture JWT Token](CAPTURES/jwt_token.png)
+
+## Admin Pages
+
+### - Login
+![Capture Admin Login](CAPTURES/auth_user.png)
 
 ### Page d'accueil
-
-![img_4.png](CAPTURES/img.png)
+![Capture Accueil](CAPTURES/img.png)
 
 ### Gestion des Clients
-![Comptes](CAPTURES/search_addCustomer.png)
+![Capture Gestion des Clients](CAPTURES/search_addCustomer.png)
 
 #### Liste des Clients
-![Comptes](CAPTURES/1.png)
+![Capture Liste des Clients](CAPTURES/1.png)
 
 #### Ajouter un Client
-![Comptes](CAPTURES/addNewCust.png)
-![Comptes](CAPTURES/ADD.png)
-![Comptes](CAPTURES/savingCustomer.png)
+![Capture Ajouter un Client](CAPTURES/addNewCust.png)
+![Capture Ajouter un Client](CAPTURES/ADD.png)
+![Capture Ajouter un Client](CAPTURES/savingCustomer.png)
 
 #### Client Ajouté
-![Comptes](CAPTURES/tableSavedCusto.png)
+![Capture Client Ajouté](CAPTURES/tableSavedCusto.png)
 
 #### Ajout de Client avec Nom Inférieur à 4 caractères
 Si le Nom du client à ajouter est inférieur à 4, le bouton "Save" ne s'active pas.
-![Comptes](CAPTURES/NomInf4_2.png)
+![Capture Nom Inférieur à 4](CAPTURES/NomInf4_2.png)
 
 Lorsque le nom est supérieur ou égal à 4, le bouton s'active.
-![Comptes](CAPTURES/activatedButton.png)
+![Capture Nom Supérieur ou égal à 4](CAPTURES/activatedButton.png)
 
 - Code HTML pour le bouton Save :
-  ![Comptes](CAPTURES/ActivevalideBtn.png)
+  ![Capture Code HTML Bouton Save](CAPTURES/ActivevalideBtn.png)
 
 - Code HTML pour les validateurs du NOM et de l'EMAIL afin d'activer le bouton Save du nouveau client :
-  ![Comptes](CAPTURES/NomInf4.png)
+  ![Capture Code HTML Validateurs](CAPTURES/NomInf4.png)
 
 - Mail non valide
-  ![Comptes](CAPTURES/MailNotValid.png)
+  ![Capture Mail Non Valide](CAPTURES/MailNotValid.png)
 
 - Nom non valide
-  ![Comptes](CAPTURES/NameContians4Charac.png)
-
-#### Recherche d'un Client
-![Comptes](CAPTURES/search.png)
+  ![Capture Nom Non Valide](CAPTURES/NameContians4Charac.png)
 
 #### Champs Requis
-![Comptes](CAPTURES/IsRequired.png)
+![Capture Champs Requis](CAPTURES/IsRequired.png)
 
 - Code HTML
-  ![Comptes](CAPTURES/errors.png)
+  ![Capture Code HTML Champs Requis](CAPTURES/errors.png)
 
 #### Suppression de Client
 - Avant suppression
-  ![Comptes](CAPTURES/AVANT.png)
+  ![Capture Avant Suppression](CAPTURES/AVANT.png)
 - Lors de la suppression
-  ![Comptes](CAPTURES/AVANT1.png)
+  ![Capture Pendant Suppression](CAPTURES/AVANT1.png)
 - Après suppression
-  ![Comptes](CAPTURES/1.png)
+  ![Capture Après Suppression](CAPTURES/1.png)
 
-### Gestion des Comptes
+## Gestion des Comptes
+
 #### Recherche d'un compte avec son ID
-![Comptes](CAPTURES/searchAccount.png)
-![Comptes](CAPTURES/searchAcc2.png)
+![Capture Recherche Compte](CAPTURES/searchAccount.png)
+![Capture Recherche Compte](CAPTURES/searchAcc2.png)
 
 #### Opération de Débit
-![Comptes](CAPTURES/debit1.png)
+![Capture Opération Débit](CAPTURES/debit1.png)
 On remarque dans le tableau que l'opération de débit a été bien effectuée.
-![Comptes](CAPTURES/debit2.png)
+![Capture Opération Débit](CAPTURES/debit2.png)
 
 #### Opération de Crédit
-![Comptes](CAPTURES/credit1.png)
+![Capture Opération Crédit](CAPTURES/credit1.png)
 On remarque dans le tableau que l'opération de crédit a été bien effectuée.
-![Comptes](CAPTURES/credit2.png)
+![Capture Opération Crédit](CAPTURES/credit2.png)
 
 #### Opération de Transfert
 Lors de la sélection de l'opération de transfert, un champ 'Account Destination' apparaît.
-![img_3.png](CAPTURES/trans2.png)
+![Capture Opération Transfert](CAPTURES/trans2.png)
 On remarque dans le tableau que l'opération de transfert a été bien effectuée ; elle s'enregistre comme débit.
-![img_1.png](CAPTURES/trans.png)
+![Capture Opération Transfert](CAPTURES/trans.png)
 
 On cherche dans le compte de destination, on va trouver une opération de crédit ajoutée due au transfert.
-![img_2.png](CAPTURES/trans1.png)
+![Capture Opération Transfert](CAPTURES/trans1.png)
+
+## Utilisateur Normal
+
+#### Recherche d'un Client
+![Capture Recherche Client](CAPTURES/search.png)
+
+#### Recherche d'un Compte
+![Capture Recherche Compte](CAPTURES/account_user.png)
 
 ## Conclusion
 
